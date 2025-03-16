@@ -38,7 +38,7 @@ A key part of the project was configuring **LVM (Logical Volume Manager)** and s
 - Allowed **only port 4242** (for SSH) and blocked all other external connections.
 - Ensured the firewall is **enabled at boot** to maintain security.
 
-### SELinux / AppArmor
+### AppArmor
 - Since I used **Debian**, I enabled **AppArmor** at startup.
 - Configured AppArmor to enforce strict security rules for system processes.
 
